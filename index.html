@@ -3,20 +3,34 @@
 <head>
     <title>Born Unleashed</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
         body {
             margin: 0;
             background-color: black;
             color: white;
-            font-family: Arial, sans-serif;
+            font-family: 'Montserrat', sans-serif;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-size: 3rem;
+        }
+
+        .main-text {
+            font-size: 4rem;
+            font-weight: 700;
+        }
+
+        .sub-text {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    Born Unleashed by Shaw
+    <div class="main-text">Born Unleashed</div>
+    <div class="sub-text">by Shaw</div>
 </body>
 </html>
